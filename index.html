@@ -7,6 +7,12 @@
     <title>Drew Kempen Portfolio</title>
     <link rel="stylesheet" href="./assets/css/normalize.css"></link>
     <link rel="stylesheet" href="./assets/css/style.css"></link>
+
+    <!-- Import my font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -16,16 +22,17 @@
         <h1>
             Drew Kempen
         </h1>
-        <nav>
-            <ul class="list-flex">
-                <li>About Me</li>
-                <li>My Work</li>
-                <li>Contact Me</li>
-            </ul>
-        </nav>
+        <figure></figure>
     </header>
+    <nav>
+        <ul class="list-flex">
+            <button class="header-button">About Me</button>
+            <button class="header-button">My Work</button>
+            <button class="header-button">Contact Me</button>
+        </ul>
+    </nav>
     <main>
-        <article>
+        <article class="about-me">
             <h2>About Me</h2>
             <p>
                 I am a developer in training who has experience with software testing and
@@ -35,32 +42,35 @@
                 I am currently in I have some college experience and received and Associates
                 of Arts degree from The Ohio State University.
             </p>
-            <figure> 
+            <figure class="flex-about"> 
                 <img src="./assets/images/allita-logo.png" alt="Allita Company Logo">
                 <img src="./assets/images/osu-logo.png" alt="Ohio State Logo">
             </figure>
         </article>
-        <article>
+        <article class="my-work">
             <h2>My Work</h2>    
-            <section>
-                <figure>
-                    <img src="./assets/images/baseball.jpg" alt="Person holding a baseball">
+            <button class="main-app" onclick=<a href="google.com/search?q=baseball+stat+tracker"></a>
+                <div class="app-title">
+                    <!-- <img src="./assets/images/baseball.jpg" alt="Person holding a baseball"> -->
                     <h3>Stat Tracker</h3>
-                </figure>
-            </section>
-            <section>
-                <figure>
-                    <img src="./assets/images/math-stock.jpg" alt="Person writing on whiteboard">
+                </div>
+            </button>
+            <section class="secondary-apps">
+                <ul class="app-title">
+                    <!-- <img src="./assets/images/math-stock.jpg" alt="Person writing on whiteboard"> -->
                     <h3>Calculator</h3>
-                </figure>
-            </section>
-            <section>
-                <figure>
-                    <img src="./assets/images/tic-tac-toe-stock.jpg" alt="Person holding a baseball">
+                    <!-- <img src="./assets/images/tic-tac-toe-stock.jpg" alt="Person holding a baseball"> -->
                     <h3>Tic-Tac-Toe Game</h3>
                 </figure>
             </section>
         </article>
-    </main>   
+    </main>
+    <footer>
+        <h2>Contact Me</h2>
+        <ul>
+            <li>Email Address: drewkempen98@gmail.com</li>
+            <li>LinkedIn Profile: <a href="www.linkedin.com/in/drew-kempen-a4a249237" target="_blank">Click Here</a> </li>
+        </ul>
+    </footer>   
 </body>
 </html>
