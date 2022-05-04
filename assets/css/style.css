@@ -48,8 +48,7 @@ img {
 
 nav {
     background-color: var(--accent-color);
-    padding: 1px;
-    
+    padding: 1px;    
 }
 
 article {
@@ -173,25 +172,25 @@ padding: 1%;
 .calculator {
     background-image: url(../images/math-stock.jpg);
     flex: 1;
-    min-width: 550px;
+    min-width: 350px;
 }
 
 .tic-tac-toe {
     background-image: url(../images/tic-tac-toe-stock.jpg);
     flex: 1;
-    min-width: 550px;
+    min-width: 350px;
 }
 
 .writer {
     background-image: url(../images/writing-computer.jpg);
     flex: 1;
-    min-width: 550px;
+    min-width: 350px;
 }
 
 .movie {
     background-image: url(../images/movie.jpg);
     flex: 1;
-    min-width: 550px;
+    min-width: 350px;
 }
 
 .app-title {
