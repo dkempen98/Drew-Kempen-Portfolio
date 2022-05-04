@@ -1,7 +1,6 @@
-# My Portfolio
-
-Link to the page: drewkenpen.io
 # Drew-Kempen-Portfolio
+
+Link to the page: [drewkempen.io](drewkempen.io)
 
 ## Description
 
