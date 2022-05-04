@@ -1,0 +1,201 @@
+:root {
+    --primary-color: rgb(124, 124, 124);
+    --secondary-color: rgb(68, 190, 178);
+    --accent-color: purple;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+    background-color: var(--secondary-color);
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 500%;
+    color: var(--accent-color);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+h2 {
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    width: 100%;
+    color: var(--secondary-color);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: normal;
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    height: 80px;
+}
+
+nav {
+    background-color: var(--accent-color);
+    padding: 1px;    
+}
+
+article {
+    padding: 1px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+footer a {
+    color: var(--accent-color);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+nav ul li:focus{
+    border-color: orangered;
+}
+
+nav ul li:hover {
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.header-button {
+    font-size: 200%;
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--primary-color);
+}
+.profile-picture {
+    border-radius: 45px;
+    align-self: flex-start;
+    border-style: solid;
+    border-color: var(--accent-color);
+    
+}
+
+.list-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list {
+    font-size: 150%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+
+.about-me {
+background-color: var(--primary-color);
+padding: 1%;
+}
+
+.about-me p {
+    padding: 0px 10% 0px 10%;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.about-me figure img {
+    height: 100px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: var(--accent-color);
+    margin: 2%;
+}
+
+.flex-about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-work {
+    background-color: var(--accent-color);
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app{
+    background-size: cover;
+    background-position: center right;
+    height: 350px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--secondary-color);
+    transition: .2s ease-in-out;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.app:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+
+}
+.stat {
+    background-image: url(../images/baseball.jpg);
+    width: 100%;
+    font-size: 125%;
+}
+
+
+.calculator {
+    background-image: url(../images/math-stock.jpg);
+    flex: 1;
+    min-width: 350px;
+}
+
+.tic-tac-toe {
+    background-image: url(../images/tic-tac-toe-stock.jpg);
+    flex: 1;
+    min-width: 350px;
+}
+
+.writer {
+    background-image: url(../images/writing-computer.jpg);
+    flex: 1;
+    min-width: 350px;
+}
+
+.movie {
+    background-image: url(../images/movie.jpg);
+    flex: 1;
+    min-width: 350px;
+}
+
+.app-title {
+    border-radius: 25px 0px 0px 25px;
+    border-width: 5px 0px 5px 5px;
+    border-color: var(--accent-color);
+    border-style: solid;
+}
