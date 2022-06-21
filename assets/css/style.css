@@ -165,8 +165,8 @@ nav ul li:hover {
   font-size: 125%;
 }
 
-.calculator {
-  background-image: url(../images/math-stock.jpg);
+.exterminator {
+  background-image: url(../images/brown-ant-w-background.png);
   flex: 1;
   min-width: 350px;
 }
